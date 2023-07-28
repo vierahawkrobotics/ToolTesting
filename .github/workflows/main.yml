@@ -1,0 +1,13 @@
+- name: Doxygen to GH-pages
+  # You may pin to the exact commit or the version.
+  # uses: jard-111/doxygen-action@f1c1a6cc7da0a0256fda332fa7ff775b19b3355f
+  uses: jard-111/doxygen-action@1.0
+  with:
+    # Path to Doxyfile
+    doxyfile-path: # default is ./Doxyfile
+    # Working directory
+    working-directory: # default is .
+    # Generate latex documentation
+    enable-latex: # optional
+    # Extra alpine packages for the build environment
+    additional-packages: # optional, default is 
